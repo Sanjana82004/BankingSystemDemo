@@ -22,7 +22,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setup() {
 		driver = new ChromeDriver();
-		driver.get("https://parabank.parasoft.com/parabank/index.htm");
+		driver.get("https://automationexercise.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
